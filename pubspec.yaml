@@ -9,4 +9,4 @@ dependencies:
   path: ^1.6.2
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '>=2.0.0-dev.63.0.flutter-4c9689c1d2 <3.0.0'
