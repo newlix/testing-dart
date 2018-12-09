@@ -4,7 +4,6 @@ version: 0.1.0
 author: newlix <newlix@me.com>
 homepage: https://github.com/newlix/testing-dart
 
-
 dependencies:
   stack_trace: ^1.9.3
   path: ^1.6.2
