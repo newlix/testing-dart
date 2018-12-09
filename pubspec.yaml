@@ -5,8 +5,8 @@ author: newlix <newlix@me.com>
 homepage: https://github.com/newlix/testing-dart
 
 dependencies:
-  stack_trace: ^1.9.3
-  path: ^1.6.2
+  stack_trace: ^1.9.0
+  path: ^1.6.0
 
 environment:
   sdk: '>=2.0.0-dev.63.0.flutter-4c9689c1d2 <3.0.0'
