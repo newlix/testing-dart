@@ -7,3 +7,6 @@ homepage: https://github.com/newlix/testing-dart
 dependencies:
   stack_trace: ^1.9.3
   path: ^1.6.2
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
