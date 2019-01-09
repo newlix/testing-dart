@@ -1,6 +1,6 @@
 name: testing
 description: golang style testing
-version: 0.1.0
+version: 0.2.0
 author: newlix <newlix@me.com>
 homepage: https://github.com/newlix/testing-dart
 
