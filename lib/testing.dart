@@ -3,15 +3,15 @@ import "package:path/path.dart";
 
 bool verbose = false;
 Stopwatch _timer;
-bool fail;
+bool pass;
 
 start() {
   _timer = new Stopwatch();
-  fail = false;
+  pass = true;
 }
 
 end() {
-  if (fail) {
+  if (!pass) {
     print("Fail\t${_timer.elapsedMilliseconds / 1000}s");
   }
 }
@@ -24,7 +24,7 @@ class T {
     final file = basename(frame.uri.toString());
     final line = frame.line;
     errors.add("$file:$line: $object");
-    fail = true;
+    pass = false;
   }
 }
 
